@@ -1,0 +1,38 @@
+Learn Git in 20 Minutes 
+by c0deporn
+https://www.youtube.com/watch?v=Y9XZQO1n_7c
+
+
+
+touch "file name" ===> Creates a file by the specificed name
+
+touch .gitignore     ==>   Creates a file in the folder that you can add extensions to ignore
+
+git branch "Branch Name" ===> Creates a new branch
+
+git checkout "Branch Name" ===> Switch to using that branch
+
+git merge "Branch Name" ===> Merge branch into master branch
+
+git commit -a -m 'Message" ===> Adds changes to files and commits them with a message all in one step
+
+Merge Tool ===> http://winmerge.org/?lang=en
+
+git stash ===> saves changes to a stack to be commited later
+
+git stash apply ===> commits changes taht were saved in stash
+
+git remote ===> gets the alisas for the url associated with the remote repsoitory
+
+git remote -v ===> shows the urls associated with the repository
+
+git fetch origin ===> fetches any changes to the remote repository since you last fetched, save it to loval repository, but not merge it into your work.
+
+git pull origin ===> fetches and commmits changes from the remote repository into your local branch
+
+git push origin master ===> Push changes to remote repository known as origin and commit them to the master branch (Will ask for credinatials)
+
+git remote add "Name of alias" URL ===> Add another repsoitory to be commited to
+
+Git free ebook
+https://git-scm.com/book/en/v2
